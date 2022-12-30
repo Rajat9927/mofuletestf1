@@ -123,10 +123,23 @@ header{
 }
 .downarrow{
     width: 40px;
-    float: right;
+    float: center;
+    margin-left: 50%;
     
 }
-.downarrow{
-    position: sticky;
-    top:1;
+.heading {
+    font-weight: 700;
+    font-size: 130px;
+    padding-top: 20px;
+    animation: fade 2s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
